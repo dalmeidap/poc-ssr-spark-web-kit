@@ -8,8 +8,8 @@ const Title = styled.h1`
 
 export default function Home() {
   return (
-    <div>
-      <Title>My page</Title>
+    <div style={{ padding: 20 }}>
+      <Title>Server Side Rendering</Title>
       <Button endIcon="uiPlus">Testing Button</Button>
     </div>
   );
